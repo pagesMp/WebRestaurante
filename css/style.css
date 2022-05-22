@@ -26,16 +26,19 @@
   
 }
 
+a:link {
+    color: inherit;
+} 
 .carta{
 
-    color: aliceblue;
+    
     font-size: 1.5em;
     font-family: "Palatino";
 
 }
 
 a:link {
-    color: rgb(255, 255, 255);
+    color: inherit;
 } 
 
 a:hover {
@@ -44,14 +47,13 @@ a:hover {
 
 .menu{
 
-    color: aliceblue;
+    
     font-size: 1.5em;
     font-family: "Palatino";
 }
 
 .nosotros{
 
-    color: aliceblue;
     font-size: 1.5em;
     font-family: "Palatino";
 
@@ -59,15 +61,13 @@ a:hover {
 
 .pagCentral{
 
-    height: 32em;
+    height: 26em;
     width: 82em;
 
     margin-top: 0.5em;
     padding: 0.5em;
 
-    background-color: rgb(103, 1, 255);
-
-    
+    background-color: rgba(255, 255, 255, 0.26);
 
     display: flex;
     justify-content: space-around;
@@ -84,8 +84,6 @@ a:hover {
     margin: 0.2em;
     padding: 0.2em;
 
-    background-color: rgb(31, 255, 1);
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -96,36 +94,16 @@ a:hover {
 .ofertas{
 
     height: 1em;
-    width: 12.7em;
+    width: 12.5em;
 
-   /* margin-top: 1em; */
+    margin-top: -5.5em;
 
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     font-family: "Palatino";
 
-    background-color: rgb(28, 85, 20);
-}
+    background-color: rgba(103, 1, 255, 0.26);
 
-.imagenDia{
-
-    height: 32em;
-    width: 25em;
-
-        background-color: rgba(255, 255, 255, 0);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-img {
-
-    margin-top: 2em;
-    height: 20em;
-    width: 24em; 
-    
 }
 
 .blockCenter{
@@ -135,8 +113,6 @@ img {
 
     margin: 0.2em;
     padding: 0.2em;
-
-    background-color: rgb(31, 255, 1);
 
     display: flex;
     justify-content: center;
@@ -148,21 +124,26 @@ img {
 .destacado{
 
     height: 1em;
-    width: 12.7em;
+    width: 12.5em;
 
    /* margin-top: 1em; */
 
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     font-family: "Palatino";
-
-    background-color: rgb(28, 85, 20);
+    
+    background-color: rgba(103, 1, 255, 0.26);
 }
 
 .imagenPlato{
 
     height: 32em;
-    width: 25em;
+    width: 12.5em;
+
+    margin-top: -1em;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-family: "Palatino";
 
     display: flex;
     justify-content: center;
@@ -170,12 +151,13 @@ img {
 
 }
 
-img {
+img{
 
-    margin-top: 2em;
-    height: 20em;
-    width: 24em; 
-    
+    height: 12em;
+    width: 24em;
+
+    border-radius: 0.5em;
+
 }
 
 .blockDerecha{
@@ -185,8 +167,6 @@ img {
 
     margin: 0.2em;
     padding: 0.2em;
-
-    background-color: rgb(31, 255, 1);
 
     display: flex;
     justify-content: center;
@@ -198,34 +178,15 @@ img {
 .complementos{
 
     height: 1em;
-    width: 12.7em;
+    width: 12.5em;
 
-   /* margin-top: 1em; */
+   margin-top: -5.5em;
 
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     font-family: "Palatino";
 
-    background-color: rgb(28, 85, 20);
-}
-
-.imagenComple{
-
-    height: 32em;
-    width: 25em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-img {
-
-    margin-top: 2em;
-    height: 20em;
-    width: 24em; 
-    
+    background-color: rgba(103, 1, 255, 0.26);
 }
 
 #pagInf{
@@ -233,7 +194,7 @@ img {
     height: 5em;
     width: 83em;
 
-    background-color: rgb(103, 1, 255);
+    background-color: rgba(103, 1, 255, 0.26);
 
     border-radius: 0em 0em 0.5em 0.5em;
     box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.75);

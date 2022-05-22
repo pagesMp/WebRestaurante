@@ -65,7 +65,7 @@ a:hover {
     margin-top: 0.5em;
     padding: 0.5em;
 
-    background-color: rgb(103, 1, 255);
+    background-color: rgba(103, 1, 255, 0.26);
 
     
 
@@ -78,7 +78,7 @@ a:hover {
 
 .entrantes{
 
-    color: aliceblue;
+    color: rgb(44, 43, 43);
     font-size: 1.5em;
     font-family: "Palatino";
 
@@ -86,7 +86,7 @@ a:hover {
 
 .primerPlato{
 
-    color: aliceblue;
+    color: rgb(44, 43, 43);
     font-size: 1.5em;
     font-family: "Palatino";
 
@@ -94,7 +94,7 @@ a:hover {
 
 .segundoPlato{
 
-    color: aliceblue;
+    color: rgb(44, 43, 43);
     font-size: 1.5em;
     font-family: "Palatino";
 
