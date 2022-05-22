@@ -24,12 +24,22 @@
   
 }
 
+
+
 .carta{
 
     color: aliceblue;
     font-size: 1.5em;
     font-family: "Palatino";
 
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+} 
+
+a:hover {
+    color: rgb(0, 0, 0);
 }
 
 .menu{
@@ -50,7 +60,7 @@
 .pagCentral{
 
     height: 32em;
-    width: 83em;
+    width: 82em;
 
     margin-top: 0.5em;
     padding: 0.5em;
@@ -67,10 +77,10 @@
 .blockIzquierda{
 
     height: 25em;
-    width: 28em;
+    width: 25em;
 
-    margin: 0.5em;
-    padding: 0.5em;
+    margin: 0.2em;
+    padding: 0.2em;
 
     background-color: rgb(31, 255, 1);
 
@@ -84,7 +94,7 @@
 .ofertas{
 
     height: 1em;
-    width: 14.5em;
+    width: 12.7em;
 
    /* margin-top: 1em; */
 
@@ -98,9 +108,9 @@
 .imagenDia{
 
     height: 32em;
-    width: 26em;
+    width: 25em;
 
-    background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
 
     display: flex;
     justify-content: center;
@@ -112,19 +122,19 @@ img {
 
     margin-top: 2em;
     height: 20em;
-    width: 26em; 
+    width: 24em; 
     
 }
 
 .blockCenter{
 
     height: 25em;
-    width: 28em;
+    width: 25em;
 
-    margin: 0.5em;
-    padding: 0.5em;
+    margin: 0.2em;
+    padding: 0.2em;
 
-    background-color: rgb(0, 242, 255);
+    background-color: rgb(31, 255, 1);
 
     display: flex;
     justify-content: center;
@@ -136,7 +146,7 @@ img {
 .destacado{
 
     height: 1em;
-    width: 14.5em;
+    width: 12.7em;
 
    /* margin-top: 1em; */
 
@@ -145,32 +155,74 @@ img {
     font-family: "Palatino";
 
     background-color: rgb(28, 85, 20);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .imagenPlato{
 
-    height: 25em;
-    width: 26em;
-
-    background-color: rgba(255, 255, 255, 0.297);
+    height: 32em;
+    width: 25em;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+img {
+
+    margin-top: 2em;
+    height: 20em;
+    width: 24em; 
+    
 }
 
 .blockDerecha{
 
     height: 25em;
-    width: 28em;
+    width: 25em;
 
-    margin: 0.5em;
-    padding: 0.5em;
+    margin: 0.2em;
+    padding: 0.2em;
 
-    background-color: rgb(255, 1, 170);
+    background-color: rgb(31, 255, 1);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
+
+.complementos{
+
+    height: 1em;
+    width: 12.7em;
+
+   /* margin-top: 1em; */
+
+    color: aliceblue;
+    font-size: 2em;
+    font-family: "Palatino";
+
+    background-color: rgb(28, 85, 20);
+}
+
+.imagenComple{
+
+    height: 32em;
+    width: 25em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+
+    margin-top: 2em;
+    height: 20em;
+    width: 24em; 
+    
+}
+
