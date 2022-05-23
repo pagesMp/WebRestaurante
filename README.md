@@ -8,7 +8,7 @@ Aqui tenemos la pagina principal de nuestro restaurante.
 
 ---
 
-<img src="/img/pagina.png.JPG"/>
+<img src="/img/pagina.png" alt="web"/>
 
 ---
 
