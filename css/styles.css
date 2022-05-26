@@ -12,8 +12,6 @@ header{
     margin-right: 1em;
     margin-bottom: 1em;
 
-    /* min-width: 576px !important; */
-
     box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.75);
 
 }
@@ -87,20 +85,13 @@ ul li{
 
 .card{
 
-
     padding: 1em;
     margin: 1em;
 }
-.imgLogo{
 
-    margin-top: 2em;
-    
-}
 .mig{
 
     margin-top: 2em;
-
-
 }
 .maps{
 
@@ -109,7 +100,7 @@ ul li{
 
     margin-right: 2em;
     margin-top: 2em;
-    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 0px 0px 5px #000000, -5px 0px 0px 5px #000000, 0px -5px 0px 5px #000000, 0px 5px 0px 5px #000000, 0px 5px 0px 5px #000000;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, 5px 0px 0px 5px #000000, -5px 0px 0px 5px #000000, 0px -5px 0px 5px #000000, 0px 5px 0px 5px #000000, 0px 5px 0px 5px #000000;
 }
 
 footer{
@@ -126,4 +117,3 @@ footer{
    box-shadow: 0px -10px 2px 0px rgba(0,0,0,0.75);
 
 }
-
