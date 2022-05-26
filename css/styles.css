@@ -23,6 +23,8 @@ header{
     padding: 0.5em;
     padding-left: 5em;    
     z-index: 999;
+
+    display: block;
    
 }
 
@@ -83,13 +85,40 @@ ul li{
     margin-bottom: 1em;
 }
 
+.card{
+
+
+    padding: 1em;
+    margin: 1em;
+}
+.imgLogo{
+
+    margin-top: 2em;
+    
+}
+.mig{
+
+    margin-top: 2em;
+
+
+}
+.maps{
+
+    width: 400px;
+    height: 250px;
+
+    margin-right: 2em;
+    margin-top: 2em;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 0px 0px 5px #000000, -5px 0px 0px 5px #000000, 0px -5px 0px 5px #000000, 0px 5px 0px 5px #000000, 0px 5px 0px 5px #000000;
+}
+
 footer{
 
-   position: absolute;
-    display: block; 
+   position: relative;
+    display:block; 
    bottom: 0 !important;
-   margin: auto !important;
-   width: 97% !important;
+   margin-top:  7.5em !important;
+   width: 98% !important;
    
    background-color: rgba(103, 1, 255, 0.26);
 
